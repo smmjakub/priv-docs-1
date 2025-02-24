@@ -1,0 +1,19 @@
+{
+  "name": "instagram-verify-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Instagram verification with MongoDB",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "instagram-private-api": "^1.45.3",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
